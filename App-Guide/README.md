@@ -20,12 +20,22 @@ Next.js docs: https://nextjs.org/docs/api-reference/create-next-app
 
 ```
 npx create-next-app@latest SA2GE
+cd SA2GE
 ```
 
 this will create a folder named SA2GE in the current directory with a Next.js project init.
 Use the commands below to run the starter project on http://localhost:3000.
 
 ```
-cd SA2GE
 npm run dev
 ```
+
+
+## For testing deployment, run the following command in the terminal:
+
+```
+npm run build
+npm start
+```
+
+This will build the project into the .next directory and start the server on http://localhost:3000.
