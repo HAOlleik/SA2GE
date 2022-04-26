@@ -25,14 +25,22 @@ cd SA2GE
 ```
 
 this will create a folder named SA2GE in the current directory with a Next.js project init.
-Use the commands below to run the starter project on http://localhost:3000.
 
+## For other team members cloning the project:
+Install the dependencies:
+```
+git clone ...
+cd SA2GE
+npm i
+```
+
+## For development:
+Use the command to run the project on http://localhost:3000.
 ```
 npm run dev
 ```
 
-
-## For testing deployment, run the following command in the terminal:
+## For testing production, run the following command in the terminal:
 
 ```
 npm run build
