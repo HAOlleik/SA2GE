@@ -1,0 +1,30 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  margin: 0.5rem;
+}
+.links > * {
+  margin: 0.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}

@@ -1,4 +1,5 @@
 # App Guide
+## This guide should be read clearly, if something is skipped, you may run into problems.
 ### This is a guide for creating the app. Use the other documents for more information about design. 
 ### This document focuses on the development process of the app itself.
 
