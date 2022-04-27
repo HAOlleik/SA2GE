@@ -1,6 +1,4 @@
-import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Link from "next/link";
 
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -19,7 +17,8 @@ export default function Home() {
 export async function getStaticProps({ locale }) {
   return {
     props: {
-      ...(await serverSideTranslations(locale, ["common"])),
+      // "about" is here even though it is not used in the page because it is used by the Header component created by _app.js
+      ...(await serverSideTranslations(locale, ["common", "about"])),
     },
   };
 }
