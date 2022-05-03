@@ -1,3 +1,5 @@
+- This information may be useful in deployment if there are issues with https
+
 ## Part I: website is hosted on Heroku or other cloud
 npm provides all packages for redirecting http requests to https
 

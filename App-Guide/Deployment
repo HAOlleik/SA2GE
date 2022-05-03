@@ -1,0 +1,23 @@
+## Deployment
+
+This will give information about the deployment of the website.
+
+There are many options for deployment.
+
+Here is a list of possible deployment options:
+1. Deployment on AWS (Hard)
+2. Deployment on [Heroku](https://www.heroku.com/) (Easy)
+3. Deployment on [Netlify](https://www.netlify.com/) (Easy)
+4. Deployment on [Vercel](https://vercel.com/) (Easy)
+5. Deployment on GitHub Pages (Moderate, sometimes impossible)
+
+#### Choosing the host:
+- Vercel, Netlify, and Heroku are all similar.
+- Vercel is the company that made Next.js, but they also provide hosting for free on their platform. This is the easiest option and therefore the one I recommend.
+- Netlify is a service that offers hosting for free on their platform, this service is my second recommendation.
+- I have used Heroku the most and the setup is very simple for this kind of project. 
+    - Simply pushing the code to Heroku should be enough to get it started. 
+    - The problem is that it will require payment for 100% uptime for each month.
+- GitHub pages would be a great option, but it is meant for static websites only. You cannot use getServerSideProps(). This would work in our case if client side fetching is done, but getting translations to work is very difficult. [Here is a guide to get it working](https://dev.to/adrai/static-html-export-with-i18n-compatibility-in-nextjs-8cd) if someone is up for the challenge.
+- AWS is too hard to set up, expensive, and overkill for this kind of project.
+

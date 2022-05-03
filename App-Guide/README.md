@@ -48,3 +48,19 @@ npm start
 ```
 
 This will build the project into the .next directory and start the server on http://localhost:3000.
+
+<br />
+<br />
+<hr />
+
+## For a static production build:
+
+This is not necessary unless GitHub Pages is used.
+
+This will not work for translations unless [this guide](https://dev.to/adrai/static-html-export-with-i18n-compatibility-in-nextjs-8cd) is followed.
+
+Change the `package.json` file "build" command to `"build": "next build && next export"`
+
+```
+npm run build
+```
